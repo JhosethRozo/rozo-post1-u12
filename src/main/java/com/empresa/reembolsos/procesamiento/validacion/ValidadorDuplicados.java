@@ -1,7 +1,5 @@
 package com.empresa.reembolsos.procesamiento.validacion;
 
-import com.empresa.reembolsos.infraestructura.RepositorioSolicitudesJpa;
-
 import com.empresa.reembolsos.dominio.*;
 
 import org.springframework.stereotype.Component;
@@ -10,7 +8,6 @@ import java.util.List;
 
 @Component
 public class ValidadorDuplicados extends ValidadorSolicitud {
-    private RepositorioSolicitudesJpa dependenciaProhibida;
     @Override
     protected ResultadoValidacion validarPropio(
             SolicitudReembolso solicitud, List<SolicitudReembolso> pendientes) {
