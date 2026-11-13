@@ -1,0 +1,97 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.empresa:reembolsos-integrado >------------------
+[INFO] Building reembolsos-integrado 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ reembolsos-integrado ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ reembolsos-integrado ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 23 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ reembolsos-integrado ---
+[INFO] skip non existing resourceDirectory C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ reembolsos-integrado ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ reembolsos-integrado ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.empresa.reembolsos.procesamiento.calculo.CalculadoraCapacitacionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s -- in com.empresa.reembolsos.procesamiento.calculo.CalculadoraCapacitacionTest
+[INFO] Running com.empresa.reembolsos.procesamiento.calculo.CalculadoraRepresentacionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.empresa.reembolsos.procesamiento.calculo.CalculadoraRepresentacionTest
+[INFO] Running com.empresa.reembolsos.procesamiento.calculo.CalculadoraViajeTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.empresa.reembolsos.procesamiento.calculo.CalculadoraViajeTest
+[INFO] Running com.empresa.reembolsos.procesamiento.validacion.ValidadorDocumentosSoporteTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.empresa.reembolsos.procesamiento.validacion.ValidadorDocumentosSoporteTest
+[INFO] Running com.empresa.reembolsos.procesamiento.validacion.ValidadorDuplicadosTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.empresa.reembolsos.procesamiento.validacion.ValidadorDuplicadosTest
+[INFO] Running com.empresa.reembolsos.procesamiento.validacion.ValidadorMontoMaximoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.empresa.reembolsos.procesamiento.validacion.ValidadorMontoMaximoTest
+[INFO] Running com.empresa.reembolsos.SolicitudReembolsoIntegrationTest
+23:34:02.836 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.empresa.reembolsos.SolicitudReembolsoIntegrationTest]: SolicitudReembolsoIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:34:02.979 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.empresa.reembolsos.ReembolsosApplication for test class com.empresa.reembolsos.SolicitudReembolsoIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.3.13)
+
+2026-11-12T23:34:03.477-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.SolicitudReembolsoIntegrationTest  : Starting SolicitudReembolsoIntegrationTest using Java 17.0.15 with PID 5108 (started by L&R in C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12)
+2026-11-12T23:34:03.477-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.SolicitudReembolsoIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2026-11-12T23:34:04.401-05:00  INFO 5108 --- [reembolsos-integrado] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-12T23:34:04.493-05:00  INFO 5108 --- [reembolsos-integrado] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2026-11-12T23:34:13.044-05:00  INFO 5108 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-12T23:34:13.278-05:00  INFO 5108 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9c265741-51f0-4728-ace7-57de76a90495 user=SA
+2026-11-12T23:34:13.278-05:00  INFO 5108 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-12T23:34:13.348-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-12T23:34:13.444-05:00  INFO 5108 --- [reembolsos-integrado] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-11-12T23:34:13.551-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-12T23:34:14.847-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-12T23:34:15.802-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-12T23:34:16.435-05:00  INFO 5108 --- [reembolsos-integrado] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-11-12T23:34:18.711-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-12T23:34:18.713-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-12T23:34:18.714-05:00  INFO 5108 --- [reembolsos-integrado] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-11-12T23:34:18.746-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.SolicitudReembolsoIntegrationTest  : Started SolicitudReembolsoIntegrationTest in 15.611 seconds (process running for 17.101)
+2026-11-12T23:34:20.255-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 1 cambio de PENDIENTE a APROBADA
+Contabilidad: programar pago de 100000.00 para E-1
+Notificando a E-1: su solicitud paso de PENDIENTE a APROBADA
+2026-11-12T23:34:20.444-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 2 cambio de PENDIENTE a RECHAZADA
+Notificando a E-1: su solicitud paso de PENDIENTE a RECHAZADA
+2026-11-12T23:34:20.484-05:00  INFO 5108 --- [reembolsos-integrado] [           main] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 3 cambio de PENDIENTE a REQUIERE_CORRECCION
+Notificando a E-1: su solicitud paso de PENDIENTE a REQUIERE_CORRECCION
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.96 s -- in com.empresa.reembolsos.SolicitudReembolsoIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ reembolsos-integrado ---
+[INFO] Building jar: C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.13:repackage (repackage) @ reembolsos-integrado ---
+[INFO] Replacing main artifact C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.787 s
+[INFO] Finished at: 2026-11-12T23:34:22-05:00
+[INFO] ------------------------------------------------------------------------

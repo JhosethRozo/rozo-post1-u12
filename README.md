@@ -16,3 +16,19 @@ La persistencia será JpaRepository sobre el dominio, sin puerto intermedio. Par
 ese contrato y el dominio sin imports de JPA, el mapeo se declarará externamente en META-INF/orm.xml.
 Las notificaciones serán síncronas, como la lista del enunciado: todos los interesados participan
 en el mismo cambio, sin prometer ejecución paralela ni entrega distribuida.
+
+## Decisiones de diseño
+
+### 1. Orden de validación
+
+Documentos → monto → duplicados. Las dos primeras comprobaciones son constantes y el recorrido
+de pendientes es O(n); detenerse antes ahorra ese recorrido. Colocar duplicados primero daría prioridad
+a ese motivo, pero pagaría el costo aun cuando faltaran documentos. El servicio carga la lista antes
+de validar, como el ejemplo: este orden ahorra comparación, no la consulta SQL previa.
+
+### 2. Selección de calculadora
+
+Un mapa construido con List<CalculadoraReembolso> inyectada evita modificar el selector cuando
+se registra otra estrategia. Un switch exige editarlo por cada categoría. El enum sí debe ampliarse
+si aparece BIENESTAR: no se promete extensión sin cambiar absolutamente ningún archivo, sino sin
+modificar las fórmulas ni el selector existentes. Las claves duplicadas fallan al construir el mapa.
