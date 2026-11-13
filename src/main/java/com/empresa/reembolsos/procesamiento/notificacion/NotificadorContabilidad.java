@@ -1,10 +1,19 @@
 package com.empresa.reembolsos.procesamiento.notificacion;
 
 import com.empresa.reembolsos.dominio.*;
+
 import org.springframework.stereotype.Component;
+
 @Component
 public class NotificadorContabilidad implements ObservadorCambioEstado {
-    @Override public void onCambioEstado(SolicitudReembolso solicitud, EstadoSolicitud estadoAnterior) {
-        if (solicitud.getEstado() == EstadoSolicitud.APROBADA) { System.out.println("Contabilidad: programar pago de " + solicitud.getMontoAprobado() + " para " + solicitud.getEmpleadoId()); }
+    @Override
+    public void onCambioEstado(SolicitudReembolso solicitud, EstadoSolicitud estadoAnterior) {
+        if (solicitud.getEstado() == EstadoSolicitud.APROBADA) {
+            System.out.println(
+                    "Contabilidad: programar pago de "
+                            + solicitud.getMontoAprobado()
+                            + " para "
+                            + solicitud.getEmpleadoId());
+        }
     }
 }

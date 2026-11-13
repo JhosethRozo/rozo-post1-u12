@@ -14,30 +14,75 @@ public class SolicitudReembolso {
     private boolean documentosSoporte;
     private EstadoSolicitud estado;
 
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public Long getId() {
+        return id;
+    }
 
-    public String getEmpleadoId() { return empleadoId; }
-    public void setEmpleadoId(String empleadoId) { this.empleadoId = empleadoId; }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-    public CategoriaGasto getCategoria() { return categoria; }
-    public void setCategoria(CategoriaGasto categoria) { this.categoria = categoria; }
+    public String getEmpleadoId() {
+        return empleadoId;
+    }
 
-    public BigDecimal getMontoSolicitado() { return montoSolicitado; }
-    public void setMontoSolicitado(BigDecimal montoSolicitado) { this.montoSolicitado = montoSolicitado; }
+    public void setEmpleadoId(String empleadoId) {
+        this.empleadoId = empleadoId;
+    }
 
-    public BigDecimal getMontoAprobado() { return montoAprobado; }
-    public void setMontoAprobado(BigDecimal montoAprobado) { this.montoAprobado = montoAprobado; }
+    public CategoriaGasto getCategoria() {
+        return categoria;
+    }
 
-    public LocalDate getFechaGasto() { return fechaGasto; }
-    public void setFechaGasto(LocalDate fechaGasto) { this.fechaGasto = fechaGasto; }
+    public void setCategoria(CategoriaGasto categoria) {
+        this.categoria = categoria;
+    }
 
-    public int getDiasViaje() { return diasViaje; }
-    public void setDiasViaje(int diasViaje) { this.diasViaje = diasViaje; }
+    public BigDecimal getMontoSolicitado() {
+        return montoSolicitado;
+    }
 
-    public boolean isDocumentosSoporte() { return documentosSoporte; }
-    public void setDocumentosSoporte(boolean documentosSoporte) { this.documentosSoporte = documentosSoporte; }
+    public void setMontoSolicitado(BigDecimal montoSolicitado) {
+        this.montoSolicitado = montoSolicitado;
+    }
 
-    public EstadoSolicitud getEstado() { return estado; }
-    public void setEstado(EstadoSolicitud estado) { this.estado = estado; }
+    public BigDecimal getMontoAprobado() {
+        return montoAprobado;
+    }
+
+    public void setMontoAprobado(BigDecimal montoAprobado) {
+        this.montoAprobado = montoAprobado;
+    }
+
+    public LocalDate getFechaGasto() {
+        return fechaGasto;
+    }
+
+    public void setFechaGasto(LocalDate fechaGasto) {
+        this.fechaGasto = fechaGasto;
+    }
+
+    public int getDiasViaje() {
+        return diasViaje;
+    }
+
+    public void setDiasViaje(int diasViaje) {
+        this.diasViaje = diasViaje;
+    }
+
+    public boolean isDocumentosSoporte() {
+        return documentosSoporte;
+    }
+
+    public void setDocumentosSoporte(boolean documentosSoporte) {
+        this.documentosSoporte = documentosSoporte;
+    }
+
+    public EstadoSolicitud getEstado() {
+        return estado;
+    }
+
+    public void setEstado(EstadoSolicitud estado) {
+        this.estado = estado;
+    }
 }

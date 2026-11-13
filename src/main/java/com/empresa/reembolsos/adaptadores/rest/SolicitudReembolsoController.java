@@ -2,6 +2,7 @@ package com.empresa.reembolsos.adaptadores.rest;
 
 import com.empresa.reembolsos.aplicacion.*;
 import com.empresa.reembolsos.dominio.*;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,7 +10,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/solicitudes")
 public class SolicitudReembolsoController {
     private final SolicitudReembolsoService servicio;
-    public SolicitudReembolsoController(SolicitudReembolsoService servicio) { this.servicio = servicio; }
+
+    public SolicitudReembolsoController(SolicitudReembolsoService servicio) {
+        this.servicio = servicio;
+    }
 
     @PostMapping
     public ResponseEntity<SolicitudReembolso> crear(@RequestBody SolicitudReembolso solicitud) {
@@ -17,7 +21,8 @@ public class SolicitudReembolsoController {
     }
 
     @PutMapping("/{id}/estado")
-    public ResponseEntity<SolicitudReembolso> cambiarEstado(@PathVariable Long id, @RequestBody EstadoSolicitud nuevoEstado) {
+    public ResponseEntity<SolicitudReembolso> cambiarEstado(
+            @PathVariable Long id, @RequestBody EstadoSolicitud nuevoEstado) {
         return ResponseEntity.ok(servicio.cambiarEstado(id, nuevoEstado));
     }
 
