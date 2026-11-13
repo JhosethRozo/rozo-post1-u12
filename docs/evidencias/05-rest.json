@@ -1,0 +1,241 @@
+[
+  {
+    "method": "POST",
+    "path": "",
+    "request": {
+      "empleadoId": "HTTP-VIAJE",
+      "categoria": "VIAJE",
+      "montoSolicitado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true
+    },
+    "status": 200,
+    "response": {
+      "id": 1,
+      "empleadoId": "HTTP-VIAJE",
+      "categoria": "VIAJE",
+      "montoSolicitado": 100000,
+      "montoAprobado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "PENDIENTE"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/1/estado",
+    "request": "APROBADA",
+    "status": 200,
+    "response": {
+      "id": 1,
+      "empleadoId": "HTTP-VIAJE",
+      "categoria": "VIAJE",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "APROBADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/1/estado",
+    "request": "RECHAZADA",
+    "status": 200,
+    "response": {
+      "id": 1,
+      "empleadoId": "HTTP-VIAJE",
+      "categoria": "VIAJE",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "RECHAZADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/1/estado",
+    "request": "REQUIERE_CORRECCION",
+    "status": 200,
+    "response": {
+      "id": 1,
+      "empleadoId": "HTTP-VIAJE",
+      "categoria": "VIAJE",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "REQUIERE_CORRECCION"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "",
+    "request": {
+      "empleadoId": "HTTP-REPRESENTACION",
+      "categoria": "REPRESENTACION",
+      "montoSolicitado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true
+    },
+    "status": 200,
+    "response": {
+      "id": 2,
+      "empleadoId": "HTTP-REPRESENTACION",
+      "categoria": "REPRESENTACION",
+      "montoSolicitado": 100000,
+      "montoAprobado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "PENDIENTE"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/2/estado",
+    "request": "APROBADA",
+    "status": 200,
+    "response": {
+      "id": 2,
+      "empleadoId": "HTTP-REPRESENTACION",
+      "categoria": "REPRESENTACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "APROBADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/2/estado",
+    "request": "RECHAZADA",
+    "status": 200,
+    "response": {
+      "id": 2,
+      "empleadoId": "HTTP-REPRESENTACION",
+      "categoria": "REPRESENTACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "RECHAZADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/2/estado",
+    "request": "REQUIERE_CORRECCION",
+    "status": 200,
+    "response": {
+      "id": 2,
+      "empleadoId": "HTTP-REPRESENTACION",
+      "categoria": "REPRESENTACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 100000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "REQUIERE_CORRECCION"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "",
+    "request": {
+      "empleadoId": "HTTP-SIN-DOC",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": false
+    },
+    "status": 200,
+    "response": {
+      "id": 3,
+      "empleadoId": "HTTP-CAPACITACION",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000,
+      "montoAprobado": 80000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "PENDIENTE"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/3/estado",
+    "request": "APROBADA",
+    "status": 200,
+    "response": {
+      "id": 3,
+      "empleadoId": "HTTP-CAPACITACION",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 80000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "APROBADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/3/estado",
+    "request": "RECHAZADA",
+    "status": 200,
+    "response": {
+      "id": 3,
+      "empleadoId": "HTTP-CAPACITACION",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 80000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "RECHAZADA"
+    }
+  },
+  {
+    "method": "PUT",
+    "path": "/3/estado",
+    "request": "REQUIERE_CORRECCION",
+    "status": 200,
+    "response": {
+      "id": 3,
+      "empleadoId": "HTTP-CAPACITACION",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000.0,
+      "montoAprobado": 80000.0,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": true,
+      "estado": "REQUIERE_CORRECCION"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "",
+    "request": {
+      "empleadoId": "HTTP-SIN-DOC",
+      "categoria": "CAPACITACION",
+      "montoSolicitado": 100000,
+      "fechaGasto": "2026-08-10",
+      "diasViaje": 2,
+      "documentosSoporte": false
+    },
+    "status": 400,
+    "response": "Faltan documentos soporte"
+  }
+]

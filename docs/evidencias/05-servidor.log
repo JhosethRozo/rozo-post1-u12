@@ -1,0 +1,81 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.empresa:reembolsos-integrado >------------------
+[INFO] Building reembolsos-integrado 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.3.13:run (default-cli) > test-compile @ reembolsos-integrado >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ reembolsos-integrado ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ reembolsos-integrado ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ reembolsos-integrado ---
+[INFO] skip non existing resourceDirectory C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ reembolsos-integrado ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.3.13:run (default-cli) < test-compile @ reembolsos-integrado <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.3.13:run (default-cli) @ reembolsos-integrado ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.3.13)
+
+2026-11-12T23:36:54.809-05:00  INFO 13996 --- [reembolsos-integrado] [           main] c.e.reembolsos.ReembolsosApplication     : Starting ReembolsosApplication using Java 17.0.15 with PID 13996 (C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\classes started by L&R in C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12)
+2026-11-12T23:36:54.822-05:00  INFO 13996 --- [reembolsos-integrado] [           main] c.e.reembolsos.ReembolsosApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-12T23:36:56.079-05:00  INFO 13996 --- [reembolsos-integrado] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-12T23:36:56.193-05:00  INFO 13996 --- [reembolsos-integrado] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+2026-11-12T23:37:04.886-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-11-12T23:37:04.902-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-12T23:37:04.902-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-11-12T23:37:04.966-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-12T23:37:04.966-05:00  INFO 13996 --- [reembolsos-integrado] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10051 ms
+2026-11-12T23:37:05.080-05:00  INFO 13996 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-12T23:37:05.254-05:00  INFO 13996 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c2d15b78-4f91-4dfc-81d6-570ae68771a1 user=SA
+2026-11-12T23:37:05.260-05:00  INFO 13996 --- [reembolsos-integrado] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-12T23:37:05.304-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-12T23:37:05.358-05:00  INFO 13996 --- [reembolsos-integrado] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-11-12T23:37:05.386-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-12T23:37:06.033-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-12T23:37:06.954-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-12T23:37:07.439-05:00  INFO 13996 --- [reembolsos-integrado] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-12T23:37:08.160-05:00  INFO 13996 --- [reembolsos-integrado] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-11-12T23:37:08.174-05:00  INFO 13996 --- [reembolsos-integrado] [           main] c.e.reembolsos.ReembolsosApplication     : Started ReembolsosApplication in 14.249 seconds (process running for 15.018)
+2026-11-12T23:38:07.881-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-12T23:38:07.881-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-12T23:38:07.881-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-11-12T23:38:08.186-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-2] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 1 cambio de PENDIENTE a APROBADA
+Contabilidad: programar pago de 100000.00 para HTTP-VIAJE
+Notificando a HTTP-VIAJE: su solicitud paso de PENDIENTE a APROBADA
+2026-11-12T23:38:08.186-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-3] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 1 cambio de APROBADA a RECHAZADA
+Notificando a HTTP-VIAJE: su solicitud paso de APROBADA a RECHAZADA
+2026-11-12T23:38:08.204-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-4] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 1 cambio de RECHAZADA a REQUIERE_CORRECCION
+Notificando a HTTP-VIAJE: su solicitud paso de RECHAZADA a REQUIERE_CORRECCION
+2026-11-12T23:38:08.219-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-6] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 2 cambio de PENDIENTE a APROBADA
+Contabilidad: programar pago de 100000.00 para HTTP-REPRESENTACION
+Notificando a HTTP-REPRESENTACION: su solicitud paso de PENDIENTE a APROBADA
+2026-11-12T23:38:08.219-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-7] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 2 cambio de APROBADA a RECHAZADA
+Notificando a HTTP-REPRESENTACION: su solicitud paso de APROBADA a RECHAZADA
+2026-11-12T23:38:08.233-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-8] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 2 cambio de RECHAZADA a REQUIERE_CORRECCION
+Notificando a HTTP-REPRESENTACION: su solicitud paso de RECHAZADA a REQUIERE_CORRECCION
+2026-11-12T23:38:08.248-05:00  INFO 13996 --- [reembolsos-integrado] [io-8082-exec-10] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 3 cambio de PENDIENTE a APROBADA
+Contabilidad: programar pago de 80000.00 para HTTP-CAPACITACION
+Notificando a HTTP-CAPACITACION: su solicitud paso de PENDIENTE a APROBADA
+2026-11-12T23:38:08.259-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-1] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 3 cambio de APROBADA a RECHAZADA
+Notificando a HTTP-CAPACITACION: su solicitud paso de APROBADA a RECHAZADA
+2026-11-12T23:38:08.264-05:00  INFO 13996 --- [reembolsos-integrado] [nio-8082-exec-2] c.e.r.p.n.NotificadorAuditoria           : Auditoria: solicitud 3 cambio de RECHAZADA a REQUIERE_CORRECCION
+Notificando a HTTP-CAPACITACION: su solicitud paso de RECHAZADA a REQUIERE_CORRECCION
