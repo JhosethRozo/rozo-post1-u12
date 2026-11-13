@@ -180,6 +180,7 @@ no un fallo pendiente. El historial conserva ambos commits sin reescritura ni el
 
 ![GitHub Actions: violación detectada](docs/evidencias/10-actions-fallo.png)
 ![GitHub Actions: revert aprobado](docs/evidencias/11-actions-verde.png)
+![Historial de GitHub Actions con fallo y corrección](docs/evidencias/12-historial-actions.png)
 ![ArchUnit: cuatro reglas en verde](docs/evidencias/08-archunit.png)
 ![Suite final tras el revert](docs/evidencias/11-verify-revert.png)
 
