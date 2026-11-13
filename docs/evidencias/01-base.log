@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.empresa:reembolsos-integrado >------------------
+[INFO] Building reembolsos-integrado 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ reembolsos-integrado ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ reembolsos-integrado ---
+[INFO] skip non existing resourceDirectory C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\src\main\resources
+[INFO] skip non existing resourceDirectory C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ reembolsos-integrado ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 4 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ reembolsos-integrado ---
+[INFO] skip non existing resourceDirectory C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ reembolsos-integrado ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ reembolsos-integrado ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ reembolsos-integrado ---
+[INFO] Building jar: C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.13:repackage (repackage) @ reembolsos-integrado ---
+[INFO] Replacing main artifact C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\Public\Dev\Asignaturas\Patrones de dise�o\Practica\rozo-post1-u12\target\reembolsos-integrado-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.354 s
+[INFO] Finished at: 2026-11-12T23:32:03-05:00
+[INFO] ------------------------------------------------------------------------
